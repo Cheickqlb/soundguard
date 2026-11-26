@@ -1,0 +1,11 @@
+# Private data - never upload (biometric data, KVKK)
+known_faces/
+events/
+*.db
+# Datasets (too large; see README for download links)
+data/
+edge_impulse_upload/
+# Python
+__pycache__/
+*.pyc
+.venv/
