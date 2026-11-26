@@ -40,7 +40,11 @@ Then, inside `server/`:
 4. Start the server: `python server.py`, then open http://localhost:5000
 5. In a second terminal, simulate sound events: `python fake_event.py scream`, or `python fake_event.py test 20` for a latency test.
 
-## Dataset preparation
+## Dataset
+
+**Prepared dataset used in the paper (1,454 clips, 16 kHz mono, 3 classes):** [SoundGuard_dataset.zip](https://drive.google.com/file/d/1zo9BDmILYICaghY-Y5-Z_Mu6yVgLJdUY/view?usp=sharing)
+
+### Rebuild it yourself
 
 Download into one folder (`data/`): UrbanSound8K, ESC-50 and the Kaggle Human Screaming Detection Dataset. Then run `python prepare_dataset.py`. Result used in the paper: gunshot 374, scream 499, background 581 clips.
 
