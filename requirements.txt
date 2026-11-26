@@ -1,0 +1,11 @@
+opencv-python
+face_recognition
+numpy
+Pillow
+flask
+paho-mqtt>=2.0
+requests
+# dataset preparation only
+librosa
+soundfile
+pandas
